@@ -1,18 +1,16 @@
 import "./App.css";
 import { React } from 'react';
 import NavbarComp from './components/NavbarComp';
-import BootCarousel from './components/BootCarousel';
-
-
+import CarouselCom from './components/CarouselCom';
 
 function App() {
   return (
     <div>
     <NavbarComp />
-     <BootCarousel />
-      
-    </div>
-  );
+    <CarouselCom />
+  </div>
+  )
 }
+
 
 export default App;
