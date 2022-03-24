@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import Shop from '../routes/Shop';
+// Routing
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// Bootstrap
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
 export default class NavbarComp extends Component {
     render() {
         return (
     <Router>
-     <div>
+   
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
         <Navbar.Brand as={Link} to={"/"}>GLOSTER MODELS</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-        <Nav.Link as={Link} to={"/shop"}>Shop</Nav.Link>
         <NavDropdown title="Games Workshop" id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to={"/warhammer40"}>Warhammer 40.000</NavDropdown.Item>
           <NavDropdown.Item as={Link} to={"/warhammerAge"}>Warhammer Age of Sigmar</NavDropdown.Item>
@@ -41,12 +41,6 @@ export default class NavbarComp extends Component {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-</div>
-<div>
-<Switch>
-<Route path="/shop" exact component={Shop}/>
-</Switch>
-</div>
 </Router>
         )
     }
