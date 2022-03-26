@@ -4,13 +4,13 @@ import {FaBars} from 'react-icons/fa';
 import { Nav, NavbarContainer, NavbarLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElement'
 
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
         <Nav>
             <NavbarContainer>
                 <NavbarLogo to="/">GLOSTER MODELS</NavbarLogo>
-                <MobileIcon>
+                <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
