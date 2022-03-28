@@ -16,18 +16,14 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
         </HeroBg>
         <HeroContent>
-            <HeroH1> Historical and Warhammer</HeroH1>
-                <HeroP>
-                Selling historical and Warhammer figures from 1000BC to 40,000AD, 
-                plus paint, tools and accessories. 
-                Other scales are available!
-                </HeroP>
+            <HeroH1> Historical and Warhammer Figures</HeroH1>
+                <HeroP> Selling historical and Warhammer figures from 1000BC to 40,000AD, plus paint, tools and accessories. Other scales are available!</HeroP>
                 <HeroBtnWrapper>
                     <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true"
                     >
-                        Get to know {hover ? <ArroForward /> : <ArroRight />}
+                        About us {hover ? <ArroForward /> : <ArroRight />}
                     </Button>
                 </HeroBtnWrapper>
         </HeroContent>
