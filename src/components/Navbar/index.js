@@ -1,14 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import {FaBars} from 'react-icons/fa';
 import { Nav, NavbarContainer, NavbarLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElement'
 
 
 const Navbar = ({toggle}) => {
-    const [click, setClick] = React.useState(false);
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
 
   return (
     <>
@@ -20,13 +17,13 @@ const Navbar = ({toggle}) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="gamesworkshop" onClick={handleClick}>Games workshop</NavLinks>
+                        <NavLinks to="historical" >Historical</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="item">Items</NavLinks>
+                        <NavLinks to="sci_fi/fantasy">Sci-Fi/Fantasy</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="location">Location</NavLinks>
+                        <NavLinks to="Hobby">Hobby</NavLinks>
                     </NavItem>
                 </NavMenu>
             </NavbarContainer> 
