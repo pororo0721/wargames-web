@@ -16,6 +16,9 @@ const Navbar = ({toggle}) => {
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
+                <NavItem>
+                        <NavLinks to="about" >About Us</NavLinks>
+                    </NavItem>
                     <NavItem>
                         <NavLinks to="historical" >Historical</NavLinks>
                     </NavItem>
