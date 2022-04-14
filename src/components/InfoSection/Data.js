@@ -8,7 +8,6 @@ export const homeObjOne = {
     description: 'Specialising in 28mm historical wargaming, if its a war, or even just a famous battle.',
     buttonLabel: 'Learn More',
     imgStart: false,
-    img: require('../../images/glostermodels.jpg'),
     alt: 'About Gloster Models',
     dark:true,
     priamry: true,
