@@ -20,13 +20,10 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="about" >About Us</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="historical" >Historical</NavLinks>
+                        <NavLinks to="products" >Products</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="sci_fi/fantasy">Sci-Fi/Fantasy</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="Hobby">Hobby</NavLinks>
+                        <NavLinks to="map">Map</NavLinks>
                     </NavItem>
                 </NavMenu>
             </NavbarContainer> 
