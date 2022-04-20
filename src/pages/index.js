@@ -3,9 +3,11 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
-import { homeObjOne } from '../components/InfoSection/Data'
+import { homeObjOne} from '../components/InfoSection/Data'
 import Map from '../Map/Map';
 import Products from '../components/Products'
+import OpeningElement from '../components/OpeningHours'
+import { hourObjOne } from '../components/OpeningHours/Data'
 
 
 const Home = () => {
@@ -23,6 +25,8 @@ const Home = () => {
     <InfoSection {...homeObjOne}/>
     <Products />
     <Map />
+    <OpeningElement {...hourObjOne}/>
+ 
    
     </>
   )

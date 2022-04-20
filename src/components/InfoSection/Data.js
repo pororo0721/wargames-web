@@ -14,3 +14,4 @@ export const homeObjOne = {
     priamry: true,
     darkText: false
 };
+
