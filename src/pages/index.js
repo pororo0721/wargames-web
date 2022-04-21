@@ -8,7 +8,7 @@ import Map from '../Map/Map';
 import Products from '../components/Products'
 import OpeningElement from '../components/OpeningHours'
 import { hourObjOne } from '../components/OpeningHours/Data'
-
+import Footer from '../components/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -26,6 +26,7 @@ const Home = () => {
     <Products />
     <Map />
     <OpeningElement {...hourObjOne}/>
+    <Footer/>
  
    
     </>
