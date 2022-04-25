@@ -69,6 +69,18 @@ const Navbar = ({toggle}) => {
                         activeClass="active"
                         >Location</NavLinks>
                     </NavItem>
+                    <NavItem>
+                        <NavLinks 
+                        to="OpeningHours"
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        activeClass="active"
+                        >Opening Hours</NavLinks>
+
+                    </NavItem>
                 </NavMenu>
             </NavbarContainer> 
         </Nav>

@@ -96,7 +96,7 @@ class Map extends React.Component {
       ));
     return (
 
-    <div style={{padding:'1rem', margin: '0 auto', maxWidth: 1000}}>
+    <div id="map" style={{padding:'1rem', margin: '0 auto', maxWidth: 1000}}>
       <h1>GLOSTER MODELS</h1>
     <Descriptions bordered>
     <Descriptions.Item label="City">{this.state.city}</Descriptions.Item>
