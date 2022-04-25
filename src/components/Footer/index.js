@@ -1,4 +1,5 @@
 import React from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 import {FaFacebook, FaEbay} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import { FooterContainer, 
@@ -13,13 +14,17 @@ import { FooterContainer,
 
 
 const Footer = () => {
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    };
+
   return (
     <>
     <FooterContainer>
         <FooterWrap>
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to='/'>
+                    <SocialLogo to='/' onClick={toggleHome}>
                         GLOSTER MODELS
                     </SocialLogo>
                     <WebsiteRights>GLOSTER MODELS © {new Date().getFullYear()}</WebsiteRights>

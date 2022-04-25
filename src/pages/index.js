@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne} from '../components/InfoSection/Data'
-import Map from '../Map/Map';
+import Map from '../components/Map/Map';
 import Products from '../components/Products'
 import OpeningElement from '../components/OpeningHours'
 import { hourObjOne } from '../components/OpeningHours/Data'
