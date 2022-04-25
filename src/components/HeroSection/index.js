@@ -19,9 +19,16 @@ const HeroSection = () => {
             <HeroH1> Historical and Warhammer Figures</HeroH1>
                 <HeroP> Selling historical and Warhammer figures from 1000BC to 40,000AD, plus paint, tools and accessories. Other scales are available!</HeroP>
                 <HeroBtnWrapper>
-                    <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to='about' 
+                    onMouseEnter={onHover} 
+                    onMouseLeave={onHover}
                     primary="true"
                     dark="true"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
                     >
                         About us {hover ? <ArroForward /> : <ArroRight />}
                     </Button>
