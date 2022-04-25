@@ -22,8 +22,9 @@ const Footer = () => {
                     <SocialLogo to='/'>
                         GLOSTER MODELS
                     </SocialLogo>
-                    <WebsiteRights>GLOSTER MODELS © {new Date().getFullYear()}
-                    All rights reserved.</WebsiteRights>
+                    <WebsiteRights>GLOSTER MODELS © {new Date().getFullYear()}</WebsiteRights>
+                    <WebsiteRights>
+                    TEL.07919 264225</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href="https://www.facebook.com/Gloster-Models-111043008150531" target="_blank"
                         aria-label="Facebook">
