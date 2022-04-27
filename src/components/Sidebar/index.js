@@ -4,6 +4,14 @@ import {AiOutlineMail} from 'react-icons/ai'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute, SidebarSocialIcon } from './SidebarElement'
 
 const Sidebar = ({isOpen, toggle}) => {
+
+  const handleFacebookClick = () => {
+    window.open('https://www.facebook.com/Gloster-Models-111043008150531', '_blank');
+  };
+
+  const handleEmailClick = () => {
+    window.open('mailto:glostermodels@gmail.com', '_blank');
+  };
   
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}> 
@@ -19,8 +27,7 @@ const Sidebar = ({isOpen, toggle}) => {
             </SidebarMenu>
             <SideBtnWrap>
                <SidebarRoute >
-                 <SidebarSocialIcon  href="https://www.facebook.com/Gloster-Models-111043008150531" target="_self"
-                        aria-label="Facebook">
+                 <SidebarSocialIcon  onClick={handleFacebookClick} aria-label="Facebook">
                     <FaFacebook />
                  </SidebarSocialIcon >
                  </SidebarRoute>
@@ -30,7 +37,7 @@ const Sidebar = ({isOpen, toggle}) => {
                   </SidebarSocialIcon >
                   </SidebarRoute>
                   <SidebarRoute >
-                  <SidebarSocialIcon href="mailto:glostermodels@gmail.com"  aria-label="Email">
+                  <SidebarSocialIcon onClick={handleEmailClick} aria-label="Email">
                     <AiOutlineMail />
                   </SidebarSocialIcon >
                  </SidebarRoute>
