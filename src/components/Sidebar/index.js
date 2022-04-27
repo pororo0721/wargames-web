@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaFacebook, FaEbay} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute, SidebarIcon } from './SidebarElement'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute, SidebarSocialIcon } from './SidebarElement'
 
 const Sidebar = ({isOpen, toggle}) => {
   
@@ -19,19 +19,20 @@ const Sidebar = ({isOpen, toggle}) => {
             </SidebarMenu>
             <SideBtnWrap>
                <SidebarRoute >
-                 <SidebarIcon aria-label="Facebook"  href="https://www.facebook.com/Gloster-Models-111043008150531" >
+                 <SidebarSocialIcon  href="https://www.facebook.com/Gloster-Models-111043008150531" target="_self"
+                        aria-label="Facebook">
                     <FaFacebook />
-                 </SidebarIcon>
+                 </SidebarSocialIcon >
                  </SidebarRoute>
                   <SidebarRoute >
-                 <SidebarIcon aria-label="Ebay">
+                 <SidebarSocialIcon  aria-label="Ebay">
                     <FaEbay />
-                  </SidebarIcon>
+                  </SidebarSocialIcon >
                   </SidebarRoute>
                   <SidebarRoute >
-                  <SidebarIcon aria-label="Email">
+                  <SidebarSocialIcon href="mailto:glostermodels@gmail.com"  aria-label="Email">
                     <AiOutlineMail />
-                  </SidebarIcon>
+                  </SidebarSocialIcon >
                  </SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>

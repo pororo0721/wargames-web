@@ -39,7 +39,7 @@ const Footer = () => {
                         aria-label="Ebay">
                             <FaEbay/>
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank"
+                        <SocialIconLink href="mailto:glostermodels@gmail.com" target="_blank"
                         aria-label="Mail">
                             <AiOutlineMail/>
                         </SocialIconLink>
