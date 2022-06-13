@@ -1,8 +1,6 @@
 import React from 'react';
 
-import Icon1 from  '../../images/sample.svg'
-import Icon2 from  '../../images/sample.svg'
-import Icon3 from  '../../images/sample.svg'
+
 
 import { Productscontainer, 
          ProductsH1, 
@@ -10,7 +8,7 @@ import { Productscontainer,
          ProductsCard, 
          ProductsIcon, 
          ProductsH2, 
-         ProductsP } from './ProductsElement';
+         } from './ProductsElement';
 
 const Products = () => {
   return (
@@ -18,11 +16,11 @@ const Products = () => {
         <ProductsH1>Our Products</ProductsH1>
         <ProductsWrapper>
             <ProductsCard>
-                <ProductsIcon src={Icon1}/>
+                <ProductsIcon src="https://i.ebayimg.com/images/g/FOwAAOSwOvZglkXj/s-l500.jpg"/>
                     <ProductsH2>Bolt Action</ProductsH2>
             </ProductsCard>
             <ProductsCard>
-                <ProductsIcon src={Icon1}/>
+                <ProductsIcon src="https://i.ebayimg.com/images/g/PpgAAOSwEcNgQffp/s-l500.jpg"/>
                     <ProductsH2>Black Powder</ProductsH2>
             </ProductsCard>
             <ProductsCard>
@@ -34,11 +32,11 @@ const Products = () => {
                     <ProductsH2>Hail Caesar</ProductsH2>
             </ProductsCard>
             <ProductsCard>
-                <ProductsIcon src={Icon1}/>
+                <ProductsIcon src="https://i.ebayimg.com/images/g/zcEAAOSwNxNh0YCa/s-l500.jpg"/>
                     <ProductsH2>SPQR</ProductsH2>
             </ProductsCard>
             <ProductsCard>
-                <ProductsIcon src={Icon1}/>
+                <ProductsIcon src="https://i.ebayimg.com/images/g/RkIAAOSw2hRh0w5F/s-l500.jpg"/>
                     <ProductsH2>Project Z</ProductsH2>
             </ProductsCard>
             <ProductsCard>
@@ -50,7 +48,7 @@ const Products = () => {
                     <ProductsH2>Judge Dread</ProductsH2>
             </ProductsCard>
                 <ProductsCard>
-                    <ProductsIcon src={Icon2}/>
+                    <ProductsIcon src="https://i.ebayimg.com/images/g/C2sAAOSwxCBiJOm9/s-l500.jpg"/>
                         <ProductsH2>Warhammer 40,000</ProductsH2>
                 </ProductsCard>
                 <ProductsCard>
@@ -58,7 +56,7 @@ const Products = () => {
                         <ProductsH2>Warhammer Age of sigmar</ProductsH2>  
                 </ProductsCard>
                 <ProductsCard>
-                <ProductsIcon src={Icon1}/>
+                <ProductsIcon src="https://i.ebayimg.com/thumbs/images/g/U9oAAOSwLalh0fvK/s-l225.jpg"/>
                     <ProductsH2>Perry Miniatures</ProductsH2>
             </ProductsCard>
             <ProductsCard>

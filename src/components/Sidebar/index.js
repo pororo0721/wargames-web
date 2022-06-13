@@ -9,6 +9,10 @@ const Sidebar = ({isOpen, toggle}) => {
     window.open('https://www.facebook.com/Gloster-Models-111043008150531', '_blank');
   };
 
+  const handleEbayClick = () => {
+    window.open('https://www.ebay.co.uk/usr/ploppy1964', '_blank');
+  };
+
   const handleEmailClick = () => {
     window.open('mailto:glostermodels@gmail.com', '_blank');
   };
@@ -32,7 +36,7 @@ const Sidebar = ({isOpen, toggle}) => {
                  </SidebarSocialIcon >
                  </SidebarRoute>
                   <SidebarRoute >
-                 <SidebarSocialIcon  aria-label="Ebay">
+                 <SidebarSocialIcon onClick={handleEbayClick} aria-label="Ebay">
                     <FaEbay />
                   </SidebarSocialIcon >
                   </SidebarRoute>

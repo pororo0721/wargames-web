@@ -35,7 +35,7 @@ const Footer = () => {
                         aria-label="Facebook">
                             <FaFacebook/>
                         </SocialIconLink>
-                        <SocialIconLink href="/" target="_blank"
+                        <SocialIconLink href="https://www.ebay.co.uk/usr/ploppy1964" target="_blank"
                         aria-label="Ebay">
                             <FaEbay/>
                         </SocialIconLink>
