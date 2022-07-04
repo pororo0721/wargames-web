@@ -1,4 +1,5 @@
 import React from 'react';
+import tools from  '../../images/tools.jpg'
 
 
 import { Productscontainer, 
@@ -71,7 +72,7 @@ const Products = () => {
                     <ProductsH2>BEYOND THE GATES OF ANTARES</ProductsH2>
             </ProductsCard>
                 <ProductsCard>
-                    <ProductsIcon src="https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/274336934_125554943366004_8028215225043424416_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=RCxZIDM8LRgAX_su3lO&tn=JzTt1GBWkOjzJITh&_nc_ht=scontent-lhr8-2.xx&oh=00_AT8uH8kDqSzOI2_zOgr5JPZXZvFiBYCBPKNsJI7OysJzmw&oe=62ACD452"/>
+                    <ProductsIcon src={tools}/>
                         <ProductsH2>PAINT & TOOLS & ACESSORIES</ProductsH2>
             </ProductsCard>
         </ProductsWrapper>
