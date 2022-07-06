@@ -9,8 +9,10 @@ I have created a webpage to help revitalize local small shop businesses. The bas
 
 
 ## What I Learned
-
+Through this project, I became more familiar with React. Also, I learned how to use usestate and how to write actual CSS code using styled-components.
+I learned how to convert location to google map geographic coordinates through react geocode module.
 
 
 ## To be supplemented
+Furthermore, I would like to create an e-commerce website where items can be purchased or checked in the store.
 
