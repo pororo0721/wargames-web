@@ -4,6 +4,11 @@
 
 I have created a webpage to help revitalize local small shop businesses. The basic store location operating hours and facebook, ebay, and email links are provided so that customers can connect with the store.
 
+
+## Directory Structure
+![제목 없음-2022-07-06-1600](https://user-images.githubusercontent.com/79802132/177584461-2cfc6245-72c8-4633-a5b1-bf719d071d49.png)
+
+
 ## Stack
 <p align="left"> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
 
